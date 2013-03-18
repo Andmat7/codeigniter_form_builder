@@ -84,7 +84,7 @@ Option
       (object) array('id' => 2, 'name' => 'Deutschland'),
       (object) array('id' => 3, 'name' => 'Österreich'),
     );
-    $this->form_builder->radio('country', 'Land', $countries, 1);
+    $this->form_builder->option('country', 'Land', $countries, 1);
 
 Date
 ----
